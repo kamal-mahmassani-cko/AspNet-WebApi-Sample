@@ -77,6 +77,7 @@ namespace WebApiSample.Controllers
                 }
 
                 value.Name = newValue.Name;
+                value.Address = newValue.Address;
 
                 db.SaveChanges();
             }
